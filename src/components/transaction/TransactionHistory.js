@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
 
-import {Table, Thead} from './TransactionHistory.styled';
+import {TableWrap, Thead} from './TransactionHistory.styled';
 
 export const TransactionHistory = ({items}) => {
     return (
-    <Table class="transaction-history">
+    <TableWrap>
       <Thead>
         <tr>
           <th>Type</th>
@@ -22,5 +22,5 @@ export const TransactionHistory = ({items}) => {
         </tr>
       ))}
       </tbody>
-    </Table>
+    </TableWrap>
 )}

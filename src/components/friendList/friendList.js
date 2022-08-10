@@ -9,7 +9,7 @@ export const FriendList = ({friends}) => {
     <FriendItem key={id}>
       <span>{isOnline ? "✔️" : "❌"}</span>
       <img src={avatar} alt={name} width="70" />
-      <Name class="name">{name}</Name>
+      <Name>{name}</Name>
     </FriendItem>))}
 </Friends>
 )}

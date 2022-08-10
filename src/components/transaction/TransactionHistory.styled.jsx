@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 
-export const Table = styled.table`
+export const TableWrap = styled.table`
 padding: 20px;
 align-items: center;
     border-radius: 8px;
