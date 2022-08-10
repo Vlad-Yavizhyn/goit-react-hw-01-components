@@ -10,18 +10,18 @@ import {
   Lable, 
   Quantity,
   Item,
-} from './styled/profile.styled'
+} from './profile.styled'
 
+export const Profile = ({ 
+  avatar, 
+  username, 
+  tag, 
+  location, 
+  stats
+ }) => {
+  return (
 
-
-export const Profile = ({ user: {    
-    username,
-    tag,
-    location,
-    avatar,
-    stats
-}}) => {
-    return <ProfileWrap>
+<ProfileWrap>
     <Description>
       <Avatar
         src={avatar}
@@ -47,7 +47,9 @@ export const Profile = ({ user: {
       </Item>
     </Stats>
   </ProfileWrap>
-};
+
+  )}
+
 
 Profile.propTypes = {
     
@@ -60,6 +62,4 @@ Profile.propTypes = {
             views: PropTypes.number,
             likes: PropTypes.number,
         }),
-        
-    
 }

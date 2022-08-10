@@ -26,7 +26,7 @@ align-items: center;
 `;
 
 export const Name = styled.p`
-    ont-size: 20px;
+    font-size: 20px;
     font-weight: 600;
     display: block;
     margin-block-start: 1em;
